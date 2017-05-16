@@ -24,18 +24,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE;NET35;UNITY3D</DefineConstants>
+    <DefineConstants>NET35;UNITY3D</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseLite|AnyCPU'">
     <OutputPath>bin\ReleaseLite\</OutputPath>
-    <DefineConstants>TRACE;NET35;UNITY3D;NO_JSONLINQ;NO_JSONPATH;NO_BSON;</DefineConstants>
+    <DefineConstants>NET35;UNITY3D;NO_JSONLINQ;NO_JSONPATH;NO_BSON;</DefineConstants>
     <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
